@@ -1,0 +1,119 @@
+.massage {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+    animation: success-show 0.5s cubic-bezier(0.25, 0.75, 0.5, 1.25);
+}
+
+.wrapper {
+    margin-top: -110px;
+    width: 60vw;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 4em;
+    border: 2px solid #cacffd;
+    border-radius: 40px;
+
+    h1 {
+        text-align: center;
+        margin-top: 40px;
+        color: #333;
+    }
+
+    hr {
+        margin: -30px auto 50px;
+        padding: 0;
+        height: 50px;
+        border: none;
+        border-bottom: 4px solid #dfe2ff;
+        box-shadow: 0 20px 20px -20px #333;
+        width: 100%
+    }
+}
+
+label {
+    font-size: 20px;
+    color: #333;
+}
+
+form {
+    padding: 0 3em;
+    
+    div {
+        padding: 15px;
+    }
+
+    
+    textarea, input {
+        border-radius: 10px;
+        border: 1px solid #333;
+        padding: 10px;
+        color: #333;
+        font-size: 18px;
+    }
+
+    .mail-theme {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        input {
+            font-size: 18px;
+            font-weight: 600;
+            width: 70%;
+        }
+    }
+
+    .mail-massage {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        textarea {
+            width: 70%;
+            resize: none;
+            height: 250px;
+            padding: 15px;
+        }
+    }
+
+    .btn {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+
+        #send-form {
+            background-color: rgb(117, 0, 251);
+            box-shadow: 0 7px 10px rgba(148, 70, 238, 0.445);
+            color: #fff;
+
+            &:hover {
+                background-color: rgb(171, 97, 255);
+            }
+        }
+
+        #exit {
+            background-color: rgb(253, 50, 50);
+            box-shadow: 0 7px 10px rgba(253, 50, 50, 0.466);
+            color: #fff;
+
+            &:hover{
+                background-color: rgb(253, 110, 110);
+            }
+        }
+    }
+
+    input[type="submit"] {
+        padding: 15px;
+        width: 120px;
+        border: none;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        margin-left: 20px;
+        margin-bottom: -50px;
+        font-size: 16px;
+
+        transition: ease-in .2s;
+        cursor: pointer;
+    }
+}

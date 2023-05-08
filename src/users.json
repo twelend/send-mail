@@ -1,0 +1,54 @@
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "anya@gmail.com",
+            "first_name": "Аня",
+            "last_name": "Тройникова",
+            "avatar": "https://sun7-20.userapi.com/impg/wbA-mxVi1tJEyvUN_TObMof7Ey8dPonH5J7EAA/IFVR3FYKBJQ.jpg?size=2160x2160&quality=96&sign=a825885ff2bffdd475e79e8a3626fddb&type=album"
+        },
+        {
+            "id": 2,
+            "email": "alina@gmail.com",
+            "first_name": "Алина",
+            "last_name": "Троегубова",
+            "avatar": "https://sun7-21.userapi.com/impg/BYYim9f0hvGSCYidNAVFaPO-eC_f_4S9j5rNWw/SRbJHWDaD0A.jpg?size=2153x2160&quality=96&sign=2d7fa8828ea43297bf471587c304f3bc&type=album"
+        },
+        {
+            "id": 3,
+            "email": "asel@gmail.com",
+            "first_name": "Даниил",
+            "last_name": "Ившин",
+            "avatar": "https://sun9-49.userapi.com/impg/m6PKwZpI2CfXnr-vzufA2bHSTrbBsLdwmS5fog/Xq-OqCltaQA.jpg?size=1080x1080&quality=95&sign=b5b2628d95ef7d6ac63e3dafb52bdba7&type=album"
+        },
+        {
+            "id": 4,
+            "email": "fermer@gmail.com",
+            "first_name": "Иван",
+            "last_name": "Фонарев",
+            "avatar": "https://sun9-5.userapi.com/impg/RHNfXEj8XZCpvOoEEFd3ZJRfwrlSoeivS0ptng/LjAw3xgUABw.jpg?size=320x471&quality=96&sign=faeb67555b0d1de76ba78b1d7848016c&type=album"
+        },
+        {
+            "id": 5,
+            "email": "misha@gmail.com",
+            "first_name": "Михаил",
+            "last_name": "Дьячков",
+            "avatar": ""
+        },
+        {
+            "id": 6,
+            "email": "ibragim@gmail.com",
+            "first_name": "Ильшат",
+            "last_name": "Сахапов",
+            "avatar": "https://sun9-43.userapi.com/impg/UPfWxSMveOF3X-zvC4x0RbMLZkYFQ41_rTM3Lg/uFDmmgmJAMA.jpg?size=1080x1350&quality=95&sign=d0cc9054ea636b7569adc2e408355bd5&type=album"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
