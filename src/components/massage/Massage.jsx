@@ -7,9 +7,11 @@ export const Massage = ({ sendMassage, openModal }) => {
 
     const onChangeTheme = (e) => {
         setMailTheme(e.target.value)
+        console.log(e.target.value)
     }
     const onChangeMessage = (e) => {
         setMailMessage(e.target.value)
+        console.log(e.target.value)
     }
     return (
         <div className="massage">
@@ -26,8 +28,12 @@ export const Massage = ({ sendMassage, openModal }) => {
                         <textarea name="massage" id="massage" placeholder='Напишите сообщение...' value={mailMessage} onChange={onChangeMessage}></textarea>
                     </div>
                     <div className="btn">
-                        <input id='exit' type="submit" value="Отмена" onClick={() => openModal(false)} />
-                        <input id='send-form' type="submit" onClick={() => mailTheme.length < 1 || mailMessage.length < 1 ? alert('Заполните все поля ввода!') : sendMassage(true)} />
+                        <div className='exit'>
+                            <input id='exit' type="submit" value="Отмена" onClick={() => openModal(false)} />
+                        </div>
+                        <div className="send">
+                            <input id='send-form' type="submit" onClick={() => mailTheme.length < 1 || mailMessage.length < 1 ? alert('Заполните все поля ввода!') : sendMassage(true)} />
+                        </div>
                     </div>
                 </form>
            </div>

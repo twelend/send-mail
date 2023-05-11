@@ -56,8 +56,8 @@ function App() {
 
   return (
     <div className="App">
-      <div className='main'>
-        {
+      
+      {
           isOpen ?
             success ? (
               <Success count={invites.length} />
@@ -78,7 +78,6 @@ function App() {
               />
             )
         }
-      </div>
     </div>
   );
 }

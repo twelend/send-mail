@@ -1,4 +1,5 @@
 import React from 'react';
+import './user.scss'
 
 export const User = ({ id, first_name, last_name, email, avatar, isInvited, addUserInvite }) => (
   <li>
@@ -16,6 +17,6 @@ export const User = ({ id, first_name, last_name, email, avatar, isInvited, addU
         </p>
       </div>
     </div>
-    <img onClick={() => addUserInvite(id)} className="action" src={`../../assets/${isInvited ? "minus" : "pluss"}.svg`} alt="Action" />
+    <input type='button' onClick={() => addUserInvite(id)} className="action" value={`${isInvited ? "-" : "+"}`}/>
   </li>
 );
