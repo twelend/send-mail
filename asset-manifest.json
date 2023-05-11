@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/send-mail/static/css/main.e05d68fc.css",
+    "main.css": "/send-mail/static/css/main.7f628619.css",
     "main.js": "/send-mail/static/js/main.86ae2dd0.js",
     "index.html": "/send-mail/index.html",
-    "main.e05d68fc.css.map": "/send-mail/static/css/main.e05d68fc.css.map",
+    "main.7f628619.css.map": "/send-mail/static/css/main.7f628619.css.map",
     "main.86ae2dd0.js.map": "/send-mail/static/js/main.86ae2dd0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e05d68fc.css",
+    "static/css/main.7f628619.css",
     "static/js/main.86ae2dd0.js"
   ]
 }
