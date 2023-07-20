@@ -18,7 +18,7 @@ export const Massage = ({ sendMassage, openModal }) => {
             <div className="wrapper">
                 <h1>Письмо</h1>
                 <hr />
-                <form action="/mail">
+                <form action="../../../server/form-lesson/mail.php" method='POST'>
                     <div className="mail-theme">
                         <label htmlFor="theme">Тема</label>
                         <input type="text" name="theme" id="theme" placeholder='Введите тему...' value={mailTheme} onChange={onChangeTheme}/>
